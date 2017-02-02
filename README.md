@@ -18,5 +18,5 @@ Para fazer uma comunicação via Modbus primeiramente é necessário baixar um m
   
   ![alt tag](https://github.com/weg/plc300-sample-modbus/blob/master/img-readme/ConfigNode.jpg)   ![alt tag](https://github.com/weg/plc300-sample-modbus/blob/master/img-readme/ConfigServer.jpg)
 
-O <a target="_blank" href="https://github.com/weg/plc300-sample-modbus/blob/master/ModbusTCP.json">Flow</a> permite ler o Scan Cycle do PLC300 e escrever na DO2. Alterando os endereços modbus é possivel que se escreva ou leia qualquer endereço modbus mapeado no PLC300. 
+O <a href="https://github.com/weg/plc300-sample-modbus/blob/master/ModbusTCP.json" target="_blank">Flow</a> permite ler o Scan Cycle do PLC300 e escrever na DO2. Alterando os endereços modbus é possivel que se escreva ou leia qualquer endereço modbus mapeado no PLC300. 
 Existem alguns outros nós modbus disponiveis nesse módulo que permitem que todos os itens configurados (tipo de leitura, endereço, quantidade de variaveis...) sejam passados dinamicamente via payload do nó.
